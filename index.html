@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="mini-nav.css">
     <link rel="stylesheet" href="category-container.css">
+    <link rel="stylesheet" href="new-brands.css">
+    <link rel="stylesheet" href="trending-product.css">
 </head>
 <body>
     <nav class="navbar">
@@ -82,42 +84,44 @@
        </div>
     </header>
     <section class="category-container">
-        <h1>Category <span>View All Category <button><i class="fa fa-arrow-left"></i></button><button><i class="fa fa-arrow-right"></i></button></span></h1>
+        <h1>Category <span class="navigate-category">View All Category <button class="nav-btn"><i class="fa fa-arrow-left"></i></button ><button class="nav-btn"><i class="fa fa-arrow-right"></i></button></span></h1>
+        <div class="categories-item-cont">
+            <div class="categories-list"></div>
+            <div class="categories-list"></div>
+            <div class="categories-list"></div>
+            <div class="categories-list"></div>
+            <div class="categories-list"></div>
+            <div class="categories-list"></div>
+        </div>
+    </section>
+    <section class="new-brands-container">
+        <h1>Newly Arrived Brands <span class="navigate-new-brands">View All Category <button class="nav-btn"><i class="fa fa-arrow-left"></i></button ><button class="nav-btn"><i class="fa fa-arrow-right"></i></button></span></h1>
+        <div class="new-brands-item-cont">
+            <div class="new-brands-list"></div>
+            <div class="new-brands-list"></div>
+            <div class="new-brands-list"></div>
+            <div class="new-brands-list"></div>
+            <div class="new-brands-list"></div>
+            <div class="new-brands-list"></div>
+        </div>
+    </section>
+
+    <section class="trending-product">
+       <div class="navigate-product">
+    <h1 class="trend-text">Trending Product</h1>
+          <div class="menu-product">
+       
+            <ul class="filter-products">
+                <li class="product-filter">ALL</li>
+                <li class="product-filter">FRUITS & VEGES</li>
+                <li class="product-filter">JUICES</li>
+              </ul>
+          </div>
+       </div>
     </section>
 
     <!-- https://github.com/success553/shopify-ecommerce-project -->
 
-<!-- 
-      <section class="New-arrival">
-         <div class="newarrivalItem">
-            <h4>Newly Arrivde Brands</h4>
-             <div>
-                 <span>view All category</span>
-                 <button> <</button>
-                 <button>></button>
-             </div>
-         </div>
-         <div class="newarrivalItem item-cont">
-            <div class="newlyArrivedItemCard">
-                <div class="item-card-image">
-                    <img src="./headerimg-2.jpg" alt="...">
-                </div>
-                <div class="item-card-text"></div>
-            </div>
-            <div class="newlyArrivedItemCard">
-                <div class="item-card-image">
-                    <img src="" alt="...">
-                </div>
-                <div class="item-card-text"></div>
-            </div>
-            <div class="newlyArrivedItemCard">
-                <div class="item-card-image">
-                    <img src="" alt="...">
-                </div>
-                <div class="item-card-text"></div>
-            </div>
-       
-         </div>
-      </section> -->
+
 </body>
 </html>

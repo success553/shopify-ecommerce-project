@@ -1,0 +1,50 @@
+.trending-product{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.navigate-product{
+    border-bottom:thin solid rgba(0,0,0,0.1);
+    height:fit-content;
+     display: flex;
+     flex-direction: row;
+     width:100%;
+    align-items: center;
+     
+}
+.menu-product{
+    width:100%;
+    justify-self: end;
+    
+}
+.trend-text{
+   width:30%;
+}
+
+.filter-products{
+    justify-self: end;
+   list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+
+}
+.filter-products .product-filter{
+    font-size: 15px;
+    font-weight:600;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    border-bottom: 3px solid transparent;
+    transition: 1s;
+    cursor:pointer;
+    padding:10px;
+}
+.filter-products .product-filter:hover{
+
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    border-bottom: 3px solid orange;
+    
+}
