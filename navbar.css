@@ -71,14 +71,22 @@
 .icon-container .icon{
     background-color: rgba(38, 38, 38, 0.093);
     border-radius: 50%;
-    height:30px;
-    width:30px;
-    padding:2px;
+    height:fit-content;
+    color: rgb(217, 153, 24);
+    width:fit-content;
+    padding:9px 10px;
+    align-content:center;
+    justify-content: center;
+    cursor: pointer;
 }
 .menu-list .cart-icon{
     background-color: rgba(38, 38, 38, 0.093);
     border-radius: 50%;
-    height:30px;
-    width:30px;
-    padding:2px;
+    height:fit-content;
+    color: rgb(217, 153, 24);
+    width:fit-content;
+    padding:9px 10px;
+    align-content:center;
+    justify-content: center;
+    cursor: pointer;
 }

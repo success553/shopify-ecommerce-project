@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="mini-nav.css">
+    <link rel="stylesheet" href="category-container.css">
 </head>
 <body>
     <nav class="navbar">
@@ -18,13 +20,13 @@
             <ul class="menu-item">
                 <li class="menu-list">
                   <div class="form-group">
-                     <select name="jkg" id="">
+                     <select id="">
                         <option value="">All Category</option>
                         <option value=""></option>
                         <option value=""></option>
                      </select>
                      <input type="text"class="search-input" placeholder="Search">
-                     <button class="search-btn">search</button>
+                     <button class="search-btn"> <i class="fa fa-search fa-2x"></i></button>
                   </div>
                 </li>
                 <li class="menu-list">
@@ -33,13 +35,15 @@
                 </li>
                 <li class="menu-list"> 
                      <div class="icon-container">
-                         <div class="icon"></div>
-                         <div class="icon"></div>
+                         <div class="icon"><i class="fa fa-user fa-2x"></i></div>
+                         <div class="icon"><i class="fa fa-heart fa-2x"></i></div>
                      </div>
                 </li>
                 <li class="menu-list">
-                    <span>cart</span>
-                    <div class="cart-icon"></div>
+                    <span>Your Cart</span>
+                    <div class="cart-icon">
+                        <i class="fa fa-shopping-cart fa-2x"></i>
+                    </div>
 
                 </li>
             </ul>
@@ -48,7 +52,7 @@
     <section class="mini-nav">
        <ul class="mini-navigation">
           <li class="mini-nav-list">
-             <select name="" id="">
+             <select id="">
                  <option value="">shop by depertment</option>
                  <option value=""></option>
                  <option value=""></option>
@@ -78,9 +82,10 @@
        </div>
     </header>
     <section class="category-container">
-        <h1>Category <span>View All Category <button><</button><button>></button></span></h1>
+        <h1>Category <span>View All Category <button><i class="fa fa-arrow-left"></i></button><button><i class="fa fa-arrow-right"></i></button></span></h1>
     </section>
 
+    <!-- https://github.com/success553/shopify-ecommerce-project -->
 
 <!-- 
       <section class="New-arrival">
