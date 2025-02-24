@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* border:1px solid  rgba(0,0,0,0.1); */
+}
+.item-cont{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    overflow-y: auto;
+    justify-content: center;
+    justify-self: center;
+}
+  .item-cont .newlyArrivedItemCard
+{
+    width:100%;
+    box-shadow: 0 1px 2em 2px rgba(0,0,0,0.1);
+   height:100px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    gap:2px;
+    padding:10px
+}
+.newlyArrivedItemCard .item-card-image{
+    background-color: rgba(38, 38, 38, 0.093);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.item-card-image img{
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+.newlyArrivedItemCard .item-card-text{
+    width:100%;
+}
+
+/*https://red-letter-kohl.vercel.app/

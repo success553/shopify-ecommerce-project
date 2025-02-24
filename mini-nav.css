@@ -1,0 +1,25 @@
+.mini-nav{
+    padding: 50px 5px 50px 5px;
+
+}
+.mini-nav .mini-navigation{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    list-style-type: none;
+
+}
+.mini-navigation .mini-nav-list{
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.mini-navigation .mini-nav-list:hover{
+    color: rgba(108, 169, 59, 0.927);
+    cursor: pointer;
+}
+.mini-nav-list select{
+   font-size: 20px;
+   outline: none;
+   border:none;
+   background-color: none;
+}

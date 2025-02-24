@@ -1,0 +1,84 @@
+.navbar{
+    position: sticky;
+    top:1px;
+    background-color: white;
+    display: flex;
+    gap:5px;
+    min-height:50px;
+    max-height: fit-content;
+    padding:25px;
+    box-shadow:0 1px 3em 2px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.menu {
+    align-content: center;
+ 
+    width:70%;
+}
+.brand-name{
+    width:30%;
+}
+.menu .menu-item{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    
+}
+.menu .menu-item .menu-list{
+     align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+.menu-item .form-group{
+     background-color:rgba(38, 38, 38, 0.093);
+     align-items: center;
+     border-radius: 10px;
+   height: fit-content;
+   padding: 5px  20px;
+   font-size: 18px;
+
+}
+.form-group .search-input{
+    outline: none;
+    border: none;
+    height:40px;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgba(0,0,0,0.5);
+}.form-group select{
+    outline: none;
+    border: none;
+    height:40px;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgba(0,0,0,0.5);
+}
+.form-group button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+   
+}
+.menu-list .icon-container{
+    display: flex;
+    gap:10px;
+}
+.icon-container .icon{
+    background-color: rgba(38, 38, 38, 0.093);
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    padding:2px;
+}
+.menu-list .cart-icon{
+    background-color: rgba(38, 38, 38, 0.093);
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    padding:2px;
+}
